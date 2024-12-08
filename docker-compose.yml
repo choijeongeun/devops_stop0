@@ -15,12 +15,12 @@ services:
       - my_bridge_network
 
   was1:
-    image: masungil/devops_stop0
+    image: choijeongeun/devops_stop0
     networks:
       - my_bridge_network
 
   was2:
-    image: masungil/devops_stop0
+    image: choijeongeun/devops_stop0
     networks:
       - my_bridge_network
 
